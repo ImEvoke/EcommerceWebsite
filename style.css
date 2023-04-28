@@ -3,12 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: Imperator;
+    src: url(Fonts/Imperator.ttf);
+}
+
 body {
   background-image: url('Images/455.gif');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Imperator', sans-serif;
   max-height: 1000vh;
 }
 h1,h3,p {
@@ -81,6 +87,7 @@ header{
 
 .nav_links li a{
   transition: all 0.3s ease 0s;
+  font-size: 20px;
 }
 
 .nav_links li a:hover{
