@@ -91,20 +91,16 @@ header{
 }
 
 .nav_links li a:hover{
-  color: #0088a9;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 button{
-  padding: 9px 25px;
+  padding: 9px 15px;
   background-color: rgba(233, 233, 233, 1.0);
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-}
-
-button:hover{
-  background-color: rgba(0, 136, 169, 1.0);
 }
 
 
