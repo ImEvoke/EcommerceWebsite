@@ -35,7 +35,7 @@ a {
   position: relative;
   text-align: center;
   border-bottom: 1px solid transparent;
-  padding :2px
+  padding: 20px 0 0px; 
 }
 .announcement-bar p{
   color: #ffffff;
@@ -66,8 +66,21 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 10%;
-  margin: 25px;
+  padding: 20px 80px;
+
+  background: ;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+
+}
+
+header .nav_links{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .logo{
@@ -175,8 +188,7 @@ button{
 
 
 .footer{
-  background: #000:
-  color: #8a8a8a
+  color: #8a8a8a;
   font-size: 14px;
   padding: 60px 0 20px; 
 }
