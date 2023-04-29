@@ -14,11 +14,11 @@
 
 
 <!--------ANNOUNCEMENT BAR------->
-
+<!--
 
   <div class="announcement-bar"><p class="announcement-bar_message">PLEASE ALLOW 2+ WEEKS FOR MANUFACTURING & SHIPPING</p></div>
 
-
+-->
 
 <!--------HEADER AND NAVIGATION BAR------>
 
@@ -32,9 +32,15 @@
         <li><a href="info.html">Info</a></li>
       </ul>
     </nav>
-    <a class="cart" href="#"><button><i class="fa fa-shopping-bag"></i></button>
+    <a class="cart" href="#"><button><i class="fa fa-shopping-bag"></i></button></a>
   </header>
-
+  <section class="space"></section>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 75)
+    })
+  </script>
 
 
 <!--------BODY--------->
