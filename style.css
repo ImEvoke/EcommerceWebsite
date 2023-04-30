@@ -70,7 +70,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: 1s;
+  transition: 1s ease;
   padding: 40px 100px;
   z-index: 999999;
 }
