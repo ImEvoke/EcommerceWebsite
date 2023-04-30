@@ -68,19 +68,24 @@ header{
   left: 0;
   width: 100%;
   display: flex;
-  position: fixed;
   justify-content: space-between;
   align-items: center;
-  transition: 1s ease;
+  transition: 2s ease;
   padding: 40px 100px;
   z-index: 999999;
 }
 
 header.sticky{
-  transition: 1s;
+  transition: 1s ease;
   position: fixed;
   padding: 40px 100px;
   background: #000;
+  top: -50px;
+}
+
+header.stickydown{
+  transition: 1s;
+  top: 0px;
 }
 
 .nav_links{
