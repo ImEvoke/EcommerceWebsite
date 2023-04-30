@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>My Website</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="Images/SquareLogo.png">
 </head>
@@ -14,11 +14,9 @@
 
 
 <!--------ANNOUNCEMENT BAR------->
-<!--
 
   <div class="announcement-bar"><p class="announcement-bar_message">PLEASE ALLOW 2+ WEEKS FOR MANUFACTURING & SHIPPING</p></div>
 
--->
 
 <!--------HEADER AND NAVIGATION BAR------>
 
@@ -35,10 +33,10 @@
     <a class="cart" href="#"><button><i class="fa fa-shopping-bag"></i></button></a>
   </header>
   <section class="space"></section>
-  <script type="text/javascript">
+  <script type="text/javascript" src="scrollnavbar.js">
     window.addEventListener("scroll", function(){
       var header = document.querySelector("header");
-      header.classList.toggle("sticky", window.scrollY > 75)
+      header.classList.toggle("sticky", window.scrollY > 100)
     })
   </script>
 
@@ -51,25 +49,9 @@
       <div class="index-body-row">
         <div class="body-col">
           <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
-          <h1>Underworld Apparel</h1>
           <p></p>
           <a href="catalog.html" class="btn">Catalog</a>
+          <section class="space2"></section>
         </div>
       </div>
     </div>
@@ -83,7 +65,7 @@
   <footer>
     <div class="footer">
       <div class="footer-container">
-
+        <hr>
         <div class="footer-row">
           <div class="footer-col-1">
             <h3>Menu</h3>
