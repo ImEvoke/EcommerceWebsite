@@ -29,7 +29,7 @@ h1, h2, h3, h4, p{
 }
 
 
-/*-------ANNOUNCEMENT BAR-------*/
+/*-------------------ANNOUNCEMENT BAR-------------------*/
 
 
 .announcement-bar{
@@ -55,7 +55,7 @@ h1, h2, h3, h4, p{
 
 
 
-/*-----HEADER AND NAVIGATION BAR------*/
+/*-------------------HEADER AND NAVIGATION BAR-------------------*/
 
 
 li, a, button{
@@ -140,7 +140,7 @@ button{
   height: 50vh;
 }
 
-/*------BODY-----*/
+/*-------------------BODY-------------------*/
 
 
 .body-container{
@@ -181,6 +181,20 @@ button{
   text-align: center;
 }
 
+.catalog-body-row{
+  display: block;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 15vh;
+  text-align: center;
+}
+
+
+/*-------------------HOME-------------------*/
+
+
+
 .body-col{
   flex-basis: 50%;
   min-width: 300px;
@@ -206,9 +220,10 @@ button{
   border-radius: 30px;
 }
 
-/*---CATALOG----*/
 
-.small-container{
+/*-------------------CATALOG-------------------*/
+
+.catalog-container{
   margin: auto;
   padding-top: 25px;
   padding-left: 25px;
@@ -228,7 +243,36 @@ button{
 }
 
 
-/*----FOOTER----*/
+/*-------------------PRODUCT DETAILS PAGE-------------------*/
+
+
+.details-container{
+  margin: auto;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+
+.details-col{
+  flex-basis: 25%;
+  padding: 0px;
+  min-width: 200px;
+  margin-bottom: 50px;
+}
+
+.details-col img{
+  align-content: left;
+}
+
+
+.details-col p{
+  align-content: right;
+}
+
+
+
+/*-------------------FOOTER-------------------*/
 
 
 .footer{
