@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Website</title>
+  <title>Catalog | Underworld Apparel</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="Images/SquareLogo.png">
 </head>
@@ -14,11 +14,9 @@
 
 
 <!--------ANNOUNCEMENT BAR------->
-<!--
 
   <div class="announcement-bar"><p class="announcement-bar_message">PLEASE ALLOW 2+ WEEKS FOR MANUFACTURING & SHIPPING</p></div>
 
--->
 
 <!--------HEADER AND NAVIGATION BAR------>
 
@@ -35,28 +33,24 @@
     <a class="cart" href="#"><button><i class="fa fa-shopping-bag"></i></button></a>
   </header>
   <section class="space"></section>
-  <script type="text/javascript">
-    window.addEventListener("scroll", function(){
-      var header = document.querySelector("header");
-      header.classList.toggle("sticky", window.scrollY > 100)
-    })
+  <script type="text/javascript" src="scrollnavbar.js">
   </script>
 
 
-<!--------BODY--------->
+
+<!-------PRODUCTS------->
 
 
-  <div class="mainbody">
-    <div class="body-container">
-      <div class="index-body-row">
-        <div class="body-col">
-          <section class="space"></section>
-        </div>
-      </div>
+  <div class="small-container">
+    <h1>Featured Products</h1>
+    <div class="row">
+      <a class="catalog-col" href="index.html">
+        <img src="Images/hoodiefront.png" width="25%">
+        <h4>Classic Hoodie</h4>
+        <p>$60.00</p>
+      </a>
     </div>
-    <div class="catalog"></div>
-
-     
+  </div>
 
 <!-------FOOTER-------->
 
